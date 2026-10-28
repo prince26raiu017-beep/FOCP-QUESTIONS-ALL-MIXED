@@ -7,7 +7,7 @@ int main()
     int i;
     printf("INPUT YOUR NAME");
     scanf("%s,name");
-    1 = strlen(name);
+    1 = strlen[name];
      printf("length of string is %s",name);
      
 
