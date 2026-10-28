@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char name[10];
+    int i;
+    printf("INPUT YOUR NAME");
+    scanf("%s,name");
+     printf("%s",strlwr(name));
+     
+
+    return 0;
+}
