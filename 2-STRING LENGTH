@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s1[10],s2[10];
+    int i,m;
+    printf("ENTER YOUR NAME 1");
+    scanf("%s,s1");
+     printf("ENTER YOUR NAME 2");
+     scanf("%s,s2");
+     i=strlen(s1);
+     m=strlen(s2);
+     printf("%d\n",s1);
+     printf("%d\n",s2);
+     
+
+    return 0;
+}
