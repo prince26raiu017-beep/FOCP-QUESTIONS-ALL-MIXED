@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int table;
+    int n;
+    printf("enter the number: ");
+    scanf("%d",&n);
+    for(table=n;table<=n*10;table=table+n){
+        printf("%d\n",table);
+    }
+    return 0;
+}
+
